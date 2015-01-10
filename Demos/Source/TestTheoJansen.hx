@@ -35,8 +35,6 @@ import box2D.dynamics.B2Body;
 	
 	class TestTheoJansen extends Test {
 	
-// 		var m_physScale = 30;
-// 		var m_world = Global.world;
 			
 		public function new(){
 			super();

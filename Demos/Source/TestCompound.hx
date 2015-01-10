@@ -33,8 +33,6 @@ import box2D.common.math.*;
 		
 		public function new(){
 			super();
-			// Set Text field
-			Global.caption.text = "Compound Shapes";
 			
 			var bd:B2BodyDef;
 			var body:B2Body;

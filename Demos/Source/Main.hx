@@ -57,8 +57,8 @@ class Main extends Sprite
 		if (inited) return;
 		inited = true;
 		
- 		Global.game_width = 640;//stage.stageWidth;
- 		Global.game_height = 410;//stage.stageHeight;
+ 		Global.game_width = stage.stageWidth;
+ 		Global.game_height = stage.stageHeight;
 		
 		Global.world_sprite = this;
 		

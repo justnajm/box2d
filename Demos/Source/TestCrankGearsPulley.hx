@@ -31,8 +31,6 @@ import box2D.dynamics.joints.B2PulleyJoint;
 	
 class TestCrankGearsPulley extends Test
 {
-// 		var m_physScale = 30;
-// 		var m_world = Global.world;
 	
 		public function new(){
 			super();

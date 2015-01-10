@@ -1,4 +1,3 @@
-import box2D.common.math.B2Vec2;
 /*
 * Copyright (c) 2006-2007 Erin Catto http://www.gphysics.com
 *
@@ -20,6 +19,7 @@ import box2D.common.math.B2Vec2;
 
 	
 	
+import box2D.common.math.B2Vec2;
 	
 	import box2D.dynamics.*;
 	import box2D.collision.*;
@@ -33,8 +33,7 @@ import box2D.common.math.B2Vec2;
 //	use namespace B2internal;
 	
 	 class TestStack extends Test{
-// 		var m_physScale = 30;
-// 		var m_world = Global.world;
+		 
 		public function new(){
 			super();
 			// Set Text field

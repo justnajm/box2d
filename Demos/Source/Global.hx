@@ -2,11 +2,12 @@ package ;
 import flash.text.TextField;
 import box2D.dynamics.B2World;
 import flash.display.Sprite;
+
 /**
-
-
-
+ * ...
+ * @author Najm
  */
+
 class Global
 {
 	public static var game_width:UInt = 0;

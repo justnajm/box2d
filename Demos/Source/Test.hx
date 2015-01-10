@@ -1,5 +1,3 @@
-package;
-import flash.Lib;
 /*
 * Copyright (c) 2006-2007 Erin Catto http://www.gphysics.com
 *
@@ -19,7 +17,7 @@ import flash.Lib;
 */
 
 
-
+	import flash.Lib;
 	import box2D.dynamics.*;
 	import box2D.collision.*;
 	import box2D.collision.shapes.*;
@@ -41,7 +39,6 @@ import flash.Lib;
 		
 	 
 		var m_physScale = 30;
-// 		var m_world = Global.world;
 	 	var m_sprite = Global.world_sprite;
 	 	
 		public function new(){

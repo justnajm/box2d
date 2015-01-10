@@ -906,8 +906,8 @@ Main.prototype = $extend(openfl_display_Sprite.prototype,{
 	,init: function() {
 		if(this.inited) return;
 		this.inited = true;
-		Global.game_width = 640;
-		Global.game_height = 410;
+		Global.game_width = this.stage.stageWidth;
+		Global.game_height = this.stage.stageHeight;
 		Global.world_sprite = this;
 		Global.caption.set_y(10);
 		Global.caption.set_x(200);
@@ -2832,7 +2832,6 @@ TestCCD.prototype = $extend(Test.prototype,{
 });
 var TestCompound = function() {
 	Test.call(this);
-	Global.caption.set_text("Compound Shapes");
 	var bd;
 	var body;
 	var i;

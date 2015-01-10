@@ -1,4 +1,4 @@
-﻿/*
+/*
 * Copyright (c) 2006-2007 Erin Catto http://www.gphysics.com
 *
 * This software is provided 'as-is', without any express or implied
@@ -27,8 +27,6 @@
 	
 	class TestBridge extends Test{
 		
-// 		var m_physScale = 30;
-// 		var m_world = Global.world;
 		
 		public function new(){
 			

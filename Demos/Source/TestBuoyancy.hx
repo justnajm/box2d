@@ -1,5 +1,3 @@
-import box2D.dynamics.controllers.B2BuoyancyController;
-import box2D.dynamics.controllers.B2Controller;
 /*
 * Copyright (c) 2006-2007 Erin Catto http://www.gphysics.com
 *
@@ -21,7 +19,9 @@ import box2D.dynamics.controllers.B2Controller;
 
 	
 	
-	
+import box2D.dynamics.controllers.B2BuoyancyController;
+import box2D.dynamics.controllers.B2Controller;
+
 import box2D.dynamics.*;
 import box2D.collision.*;
 import box2D.collision.shapes.*;
@@ -226,4 +226,3 @@ import box2D.common.math.*;
 		}
 	}
 	
-
